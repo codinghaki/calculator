@@ -1,40 +1,48 @@
 /* * {
     border: 1px solid red;
-} */
+}  */
 
 #mainCard {
-    margin-top: 75px;
-    height: 75vh;
+  margin-top: 75px;
+  height: 75vh;
 }
 
 #calculatorContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
 }
 
 #calculator {
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
-    width: 50vh;
-    background-color: grey;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 50vh;
+  background-color: grey;
+  padding: 20px;
 }
 
-#currentExpression{
-    height: 50px;
-    background-color: lightgrey;
+#currentExpression {
+  height: 50px;
+  background-color: lightgrey;
 }
 
-#result{
-    height: 150px;
-    background-color: white;
+#result {
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  font-size: 100px;
 }
 
-#buttonsContainer{
-    display: grid;
-    height: 500px;
-    grid-template-columns: repeat(4, 1fr);
+#buttonsContainer {
+  display: grid;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    font-size: 75px;
 }
